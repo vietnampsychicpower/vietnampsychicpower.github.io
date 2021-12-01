@@ -1,0 +1,306 @@
+body{
+    width: 99%;
+    height: 98vh;
+    background-image:url('https://i.postimg.cc/bvmct2bn/background.jpg');
+    background-size: 100%;
+    background-repeat: repeat;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#logo{
+    position: absolute;
+    left: 5vw;
+    width: 8vw;
+}
+.menu{
+    position: absolute;
+    top: 2vw;
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.thongtin{
+    position: absolute;
+    left: 50vw;
+    background-color: black;
+    width: 8vw;
+    height: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1.6vw;
+    border: 0.2vw solid white;
+    border-radius: 1vw;
+}
+.trangchu{
+    position: absolute;
+    left: 60.5vw;
+    background-color: black;
+    width: 8vw;
+    height: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1.6vw;
+    border: 0.2vw solid white;
+    border-radius: 1vw;
+}
+.thuvien{
+    position: absolute;
+    left: 70vw;
+    background-color: black;
+    width: 8vw;
+    height: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1.6vw;
+    border: 0.2vw solid white;
+    border-radius: 1vw;
+}
+.lienhe{
+    position: absolute;
+    left: 80vw;
+    background-color: black;
+    width: 8vw;
+    height: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1.6vw;
+    border: 0.2vw solid white;
+    border-radius: 1vw;
+}
+.nentrang{
+    top: 14vw;
+    left: 20vw;
+    position: absolute;
+    color: #000;
+    height: 33vw;
+    width: 60vw;
+    background-color: rgb(231, 231, 231);
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    box-shadow: 0px 0px 50px rgba(255, 255, 255, 1);
+}
+input{
+    width: 20vw;
+    height: 2vw;
+    border-radius: 0.5vw;
+    background-color: black;
+    color: white;
+}
+button{
+    width: 10vw;
+    height: 2vw;
+    border-radius: 0.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 10vw;
+    position: absolute;
+}
+.kichcochu{
+    color: black;
+    top: 18vw;
+    left: 38vw;
+    position: absolute;
+}
+
+@media(max-width: 1024px){
+    #logo{
+        width: 14vw;
+    }
+    .menu{
+        font-size: 2vw;
+    }
+    .thongtin{
+        left: 40vw;
+        top: 2vw;
+        width: 13vw;
+        height: 4vw;
+    }
+    .trangchu{
+        left: 55vw;
+        top: 2vw;
+        width: 13vw;
+        height: 4vw;
+    }
+    .thuvien{
+        left: 70vw;
+        top: 2vw;
+        width: 13vw;
+        height: 4vw;
+    }
+    .lienhe{
+        left: 85vw;
+        top: 2vw;
+        width: 13vw;
+        height: 4vw;
+    }
+    .nentrang{
+        top: 25vh;
+        left: 10vw;
+        height: 60vh;
+        width: 80vw;
+    }
+    h1{
+        left: -6vw;
+        top: 7vh;
+        position: relative;
+    }
+    .acc, input{
+        top: 5vh;
+        position: relative;
+    }
+    button{
+        width: 15vw;
+        height: 3vw;
+        top: 7vh;
+        left: 2.8vw;
+        position: relative;
+    }
+    h5{
+        left: -2vh;
+        position: relative;
+    }
+}
+
+/* Máy tính bảng, hiển thị chiêu dọc */
+@media(max-width: 425px){
+    #logo{
+        width: 16vh;
+        left: 10vw;
+    }   
+    .menu{
+        font-size: 2vh;
+    }
+    .thongtin{
+        left: 36vw;
+        top: 22vh;
+        width: 25vh;
+        height: 5vh;
+    }
+    .trangchu{
+        left: 36vw;
+        top: 29vh;
+        width: 25vh;
+        height: 5vh;
+    }
+    .thuvien{
+        left: 36vw;
+        top: 36vh;
+        width: 25vh;
+        height: 5vh;
+    }
+    .lienhe{
+        left: 36vw;
+        top: 43vh;
+        width: 25vh;
+        height: 5vh;
+    }
+    .nentrang{
+        top: 55vh;
+        left: 10vw;
+        height: 60vh;
+        width: 80vw;
+    }
+    h1{
+        left: -12vw;
+        top: 40vh;
+        position: relative;
+    }
+    .acc, input{
+        left: -5vh;
+        top: 40vh;
+        position: relative;
+    }
+    input{
+        width: 40vw;
+        height: 3vh;
+    }
+    button{
+        width: 15vw;
+        height: 3vh;
+        top: 45vh;
+        left: 2.8vw;
+        position: relative;
+    }
+    h5{
+        top: 40vh;
+        left: -5vw;
+        position: relative;
+    }
+}
+
+/* Điện thoại, hiển thị chiều dọc */
+@media(max-width: 768px){
+    #logo{
+        width: 16vh;
+        left: 36vw;
+    }
+    .menu{
+        font-size: 2.5vh;
+    }
+    .thongtin{
+        left: 28vw;
+        top: 22vh;
+        width: 25vh;
+        height: 5vh;
+    }
+    .trangchu{
+        left: 28vw;
+        top: 29vh;
+        width: 25vh;
+        height: 5vh;
+    }
+    .thuvien{
+        left: 28vw;
+        top: 36vh;
+        width: 25vh;
+        height: 5vh;
+    }
+    .lienhe{
+        left: 28vw;
+        top: 43vh;
+        width: 25vh;
+        height: 5vh;
+    }
+    .nentrang{
+        top: 55vh;
+        left: 10vw;
+        height: 60vh;
+        width: 80vw;
+    }
+    h1{
+        text-align: center;
+        left: -18vw;
+        top: 45vh;
+        position: relative;
+    }
+    .acc, input{
+        left: -5vh;
+        top: 40vh;
+        position: relative;
+    }
+    input{
+        width: 40vw;
+        height: 3vh;
+    }
+    button{
+        width: 30vw;
+        height: 4vh;
+        top: 45vh;
+        left: -3vw;
+        position: relative;
+    }
+    h5{
+        text-align: center;
+        top: 35vh;
+        left: -20vw;
+        position: relative;
+    }
+}
