@@ -57,8 +57,8 @@ const products = [{
 ];
 
 const contentProducts = {
-    title: "Kiến thức và Thực hành",
-    subtitle: "",
+    title: "Knowledge - Practice",
+    subtitle: "Kiến Thức - Thực Hành",
     button: "View",
     url: "#"
 };
