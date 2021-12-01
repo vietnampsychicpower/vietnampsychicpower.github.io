@@ -13,6 +13,8 @@ body{
     width: 8vw;
 }
 .menu{
+    position: absolute;
+    top: 2vw;
     font-size: 1.2vw;
     font-weight: bold;
     color: white;
@@ -21,129 +23,93 @@ body{
 .thongtin{
     position: absolute;
     left: 50vw;
-    top: 1.6vw;
     background-color: black;
     width: 8vw;
     height: 2vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    top: 1.6vw;
     border: 0.2vw solid white;
     border-radius: 1vw;
 }
 .trangchu{
     position: absolute;
     left: 60.5vw;
-    top: 1.6vw;
     background-color: black;
     width: 8vw;
     height: 2vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    top: 1.6vw;
     border: 0.2vw solid white;
     border-radius: 1vw;
 }
 .thuvien{
     position: absolute;
     left: 70vw;
-    top: 1.6vw;
     background-color: black;
     width: 8vw;
     height: 2vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    top: 1.6vw;
     border: 0.2vw solid white;
     border-radius: 1vw;
 }
 .lienhe{
     position: absolute;
     left: 80vw;
-    top: 1.6vw;
     background-color: black;
     width: 8vw;
     height: 2vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    top: 1.6vw;
     border: 0.2vw solid white;
     border-radius: 1vw;
 }
-.slogan{
-    font-size: 1vw;
-    position: relative;
-    left: 7vw;
-}
-.chaomung{
-    top: 15vw;
-    position: relative;
-}
-.ten{
-    top: 15.5vw;
-    position: relative;
-    font-size: 1.5vw;
-    font-weight: bold;
-}
-.ten2{
-    top: 16vw;
-    position: relative;
-    font-size: 1.5vw;
-    font-weight: bold;
-}
-.gioithieu{
-    width: 19vw;
-    display: block;
-    top: 17vw;
-    position: relative;
-}
-#rong1{
-    left: 7.5vw;
-    top: 25vw;
+.nentrang{
+    top: 14vw;
+    left: 20vw;
     position: absolute;
-    font-weight: bold;
-    font-size: 1vw;
+    color: #000;
+    height: 33vw;
+    width: 60vw;
+    background-color: rgb(231, 231, 231);
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    box-shadow: 0px 0px 50px rgba(255, 255, 255, 1);
 }
-#rong2{
-    left: 7.5vw;
-    top: 27vw;
-    position: absolute;
-    font-weight: bold;
-    font-size: 1vw;
-}
-#rong3{
-    left: 7.5vw;
-    top: 29vw;
-    position: absolute;
-    font-weight: bold;
-    font-size: 1vw;
-}
-#rong4{
-    left: 7.5vw;
-    top: 31vw;
-    position: absolute;
-    font-weight: bold;
-    font-size: 1vw;
-}
-.ketban{
-    position: relative;
-    left: 7vw;
-    top: 26vw;
-    background-color: black;
-    width: 16vw;
+input{
+    width: 20vw;
     height: 2vw;
+    border-radius: 0.5vw;
+    background-color: black;
+    color: white;
+}
+button{
+    width: 10vw;
+    height: 2vw;
+    border-radius: 0.5vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0.2vw solid white;
-    border-radius: 1vw;
-    font-size: 1.2vw;
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
+    left: 10vw;
+    position: absolute;
+}
+.kichcochu{
+    color: black;
+    top: 18vw;
+    left: 38vw;
+    position: absolute;
 }
 
-/* Máy tính bảng, hiển thị chiều ngang */
 @media(max-width: 1024px){
     #logo{
         width: 14vw;
@@ -175,58 +141,40 @@ body{
         width: 13vw;
         height: 4vw;
     }
-    .slogan{
-        font-size: 2.5vw;
+    .nentrang{
+        top: 25vh;
+        left: 10vw;
+        height: 60vh;
+        width: 80vw;
     }
-    .chaomung{
-        top: 20vw;
+    h1{
+        left: -6vw;
+        top: 7vh;
+        position: relative;
     }
-    .ten{
-        top: 21vw;
-        font-size: 2vw;
+    .acc, input{
+        top: 5vh;
+        position: relative;
     }
-    .ten2{
-        top: 22vw;
-        font-size: 2vw;
+    button{
+        width: 15vw;
+        height: 3vw;
+        top: 7vh;
+        left: 2.8vw;
+        position: relative;
     }
-    .gioithieu{
-        width: 40vw;
-        top: 23vw;
-        font-size: 3vw;
-    }
-    #rong1{
-        top: 40vw;
-        font-size: 2vw;
-    }
-    #rong2{
-        top: 45vw;
-        font-size: 2vw;
-    }
-    #rong3{
-        top: 50vw;
-        font-size: 2vw;
-    }
-    #rong4{
-        top: 55vw;
-        font-size: 2vw;
-    }
-    .ketban{
-        left: 7vw;
-        top: 40vw;
-        width: 25vw;
-        height: 4vw;
-        border: 0.2vw solid white;
-        border-radius: 1vh;
-        font-size: 2vw;
+    h5{
+        left: -2vh;
+        position: relative;
     }
 }
 
 /* Máy tính bảng, hiển thị chiêu dọc */
-@media(max-width: 768px){
+@media(max-width: 425px){
     #logo{
         width: 16vh;
-        left: 42vw;
-    }
+        left: 10vw;
+    }   
     .menu{
         font-size: 2vh;
     }
@@ -254,131 +202,105 @@ body{
         width: 25vh;
         height: 5vh;
     }
-    .chaomung{
-        font-size: 4.5vh;
-        top: 50vh;
+    .nentrang{
+        top: 55vh;
+        left: 10vw;
+        height: 60vh;
+        width: 80vw;
     }
-    .ten{
-        top: 52vh;
-        font-size: 4vh;
+    h1{
+        left: -12vw;
+        top: 40vh;
+        position: relative;
     }
-    .ten2{
-        top: 54vh;
-        font-size: 4vh;
+    .acc, input{
+        left: -5vh;
+        top: 40vh;
+        position: relative;
     }
-    .gioithieu{
-        width: 40vh;
-        top: 56vh;
-        font-size: 3vh;
+    input{
+        width: 40vw;
+        height: 3vh;
     }
-    #rong1{
-        top: 80vh;
-        left: 39vw;
-        font-size: 3vh;
+    button{
+        width: 15vw;
+        height: 3vh;
+        top: 45vh;
+        left: 2.8vw;
+        position: relative;
     }
-    #rong2{
-        top: 85vh;
-        left: 39vw;
-        font-size: 3vh;
-    }
-    #rong3{
-        top: 90vh;
-        left: 39vw;
-        font-size: 3vh;
-    }
-    #rong4{
-        top: 95vh;
-        left: 39vw;
-        font-size: 3vh;
-    }
-    .ketban{
-        left: 27vw;
-        top: 70vh;
-        width: 50vw;
-        height: 4vh;
-        border: 0.2vw solid white;
-        border-radius: 1vh;
-        font-size: 3vh;
+    h5{
+        top: 40vh;
+        left: -5vw;
+        position: relative;
     }
 }
 
 /* Điện thoại, hiển thị chiều dọc */
-@media(max-width: 425px){
+@media(max-width: 768px){
     #logo{
         width: 16vh;
-        left: 35vw;
+        left: 36vw;
     }
     .menu{
-        font-size: 2vh;
+        font-size: 2.5vh;
     }
     .thongtin{
-        left: 25vw;
+        left: 28vw;
         top: 22vh;
         width: 25vh;
         height: 5vh;
     }
     .trangchu{
-        left: 25vw;
+        left: 28vw;
         top: 29vh;
         width: 25vh;
         height: 5vh;
     }
     .thuvien{
-        left: 25vw;
+        left: 28vw;
         top: 36vh;
         width: 25vh;
         height: 5vh;
     }
     .lienhe{
-        left: 25vw;
+        left: 28vw;
         top: 43vh;
         width: 25vh;
         height: 5vh;
     }
-    .chaomung{
-        font-size: 4.5vh;
-        top: 50vh;
+    .nentrang{
+        top: 55vh;
+        left: 10vw;
+        height: 60vh;
+        width: 80vw;
     }
-    .ten{
-        top: 52vh;
-        font-size: 4vh;
+    h1{
+        text-align: center;
+        left: -18vw;
+        top: 45vh;
+        position: relative;
     }
-    .ten2{
-        top: 54vh;
-        font-size: 4vh;
+    .acc, input{
+        left: -5vh;
+        top: 40vh;
+        position: relative;
     }
-    .gioithieu{
-        width: 40vh;
-        top: 56vh;
-        font-size: 3vh;
+    input{
+        width: 40vw;
+        height: 3vh;
     }
-    #rong1{
-        top: 85vh;
-        left: 30vw;
-        font-size: 3vh;
-    }
-    #rong2{
-        top: 90vh;
-        left: 30vw;
-        font-size: 3vh;
-    }
-    #rong3{
-        top: 95vh;
-        left: 30vw;
-        font-size: 3vh;
-    }
-    #rong4{
-        top: 100vh;
-        left: 30vw;
-        font-size: 3vh;
-    }
-    .ketban{
-        left: 5vw;
-        top: 70vh;
-        width: 90vw;
+    button{
+        width: 30vw;
         height: 4vh;
-        border: 0.2vw solid white;
-        border-radius: 1vh;
-        font-size: 3vh;
+        top: 45vh;
+        left: -3vw;
+        position: relative;
+    }
+    h5{
+        text-align: center;
+        top: 35vh;
+        left: -20vw;
+        position: relative;
     }
 }
