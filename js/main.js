@@ -1,6 +1,6 @@
 const products = [{
         label: "NeW!",
-    img: "assets/images/meditation levitation.jpg",
+        img: "assets/images/meditation levitation.jpg",
         title: "Thiền định",
         subtitle: "Far far away, behind the world mountains, far from the countries.",
         url: "#",
@@ -57,6 +57,7 @@ const products = [{
 ];
 
 const contentProducts = {
+    font: "assets/Font Robika/Robika.otf",
     title: "Knowledge - Practice",
     subtitle: "Kiến Thức - Thực Hành",
     button: "View",
